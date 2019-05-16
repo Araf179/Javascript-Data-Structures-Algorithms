@@ -1,4 +1,4 @@
-function validAnagram(first, second) {
+module.exports.validAnagram = function (first, second) {
   if (first.length !== second.length) {
     return false;
   }
@@ -26,4 +26,4 @@ function validAnagram(first, second) {
 }
 
 // {a: 0, n: 0, g: 0, r: 0, m: 0,s:1}
-validAnagram('anagrams', 'nagaramm')
+this.validAnagram('anagrams', 'nagaramm')

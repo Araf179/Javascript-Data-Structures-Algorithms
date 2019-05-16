@@ -1,4 +1,4 @@
-function maxSubarraySum(arr, num){
+module.exports.maxSubarraySum = function (arr, num){
   let maxSum = 0;
   let tempSum = 0;
   if (arr.length < num) return null;
@@ -13,4 +13,4 @@ function maxSubarraySum(arr, num){
   return maxSum;
 }
 
-maxSubarraySum([2,6,9,2,1,8,5,6,3],3)
+this.maxSubarraySum([2,6,9,2,1,8,5,6,3],3)

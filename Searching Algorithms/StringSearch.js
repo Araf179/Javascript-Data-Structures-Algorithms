@@ -1,4 +1,4 @@
-function naiveSearch(long, short){
+module.exports.naiveSearch = function (long, short){
     var count = 0;
     for(var i = 0; i < long.length; i++){
         for(var j = 0; j < short.length; j++){
@@ -9,4 +9,4 @@ function naiveSearch(long, short){
     return count;
 }
 
-naiveSearch("lorie loled", "lol")
+this.naiveSearch("lorie loled", "lol")

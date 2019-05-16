@@ -1,4 +1,4 @@
-function insertionSort(arr){
+module.exports.insertionSort = function (arr){
 	var currentVal;
     for(var i = 1; i < arr.length; i++){
         currentVal = arr[i];
@@ -10,4 +10,4 @@ function insertionSort(arr){
     return arr;
 }
 
-insertionSort([2,1,9,76,4])
+this.insertionSort([2,1,9,76,4])
